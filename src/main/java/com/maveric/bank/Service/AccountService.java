@@ -1,7 +1,7 @@
 package com.maveric.bank.Service;
 
-public class AccountService {
+import com.maveric.bank.model.Account;
 
-
-    }
-
+public interface AccountService {
+    Account createAccountData(Account account);
+}
